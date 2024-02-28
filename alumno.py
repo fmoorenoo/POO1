@@ -3,10 +3,8 @@ class alumno:
         self.nota = nota
         self.nombre = nombre
 
-
     def imprimir(self):
         print(f"La nota de {self.nombre} es un {self.nota}")
-
 
     def promociona(self):
         if (self.nota >= 5):
